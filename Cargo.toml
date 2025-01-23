@@ -1,0 +1,16 @@
+[package]
+name = "zenoh-node"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zenoh = "0.10.0-rc"
+async-trait = "0.1.42"
+snafu = "0.7.5"
+tokio = "1.34.0"
+tracing = "0.1.23"
+tracing-futures = "0.2.4"
+futures = "0.3.12"
+prost = "0.12.3"
